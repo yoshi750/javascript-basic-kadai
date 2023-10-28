@@ -1,5 +1,7 @@
-const price = (num) => {
+const price = () => {
     console.log(num ** 2);
 }
 
-price(30);
+const num = 30;
+
+price();
